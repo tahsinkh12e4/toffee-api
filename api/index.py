@@ -24,7 +24,7 @@ def handle_api(channel_id):
  print(channel_id)
 
  # Retrieve the m3u8 content
- m3u8_url = f"https://bldcmprod-cdn.toffeelive.com/cdn/live/{channel_id}/playlist.m3u8"
+ m3u8_url = f"https://bldcmprod-cdn.toffeelive.com/cdn/live/slang/{channel_id}_576/{channel_id}_576.m3u8?bitrate=1000000&channel={channel_id}_576&gp_id="
  response = requests.get(m3u8_url, headers=headers)
  lines = response.text.splitlines()
 
