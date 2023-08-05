@@ -16,7 +16,7 @@ base_url = "https://bldcmprod-cdn.toffeelive.com"
 def credit():
 	
 	
-	return "Made With ❤️  For The ToffeeLiveSetup"
+	return "Made With  By CodeCrafters"
 
 
 @app.route("/api/<string:channel_id>.m3u8")
