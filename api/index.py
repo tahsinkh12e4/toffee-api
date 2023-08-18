@@ -3,8 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-cookie = "Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29tLw:Expires=1691275195:KeyName=prod_linear:Signature=hL5AkJXog8pISnCVRioHqgwey4S4e7tHf9NXtLlOCPEk-u56FfzpHl9SNxxGagi6JqB2mTrqwbkQRx54PZq6BA"
-
+cookie = "Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29tLw:Expires=1693089595:KeyName=prod_linear:Signature=aC63Wde-Xt3uBt1I0nmq5QNaFjFp4o54zZK6Fa-ui-E6Mqj2mzumQLGRzXVinMIDpRwsaS-NwxkI_bzzxohADQ"
 headers = {
 "cookie": cookie
 }
